@@ -12,7 +12,7 @@ def click_event(event, x, y, flags, params):
             cv2.line(image, tuple(points[-2]), tuple(points[-1]), (0, 255, 0), 10)
         cv2.imshow("Region of Interest (Pemilihan Area)", image)
 
-image_path = r"D:\coding TA v2\data\CCTV\sample_4.png"
+image_path = r"D:\coding TA v2\data\CCTV\data_JI.png"
 image = cv2.imread(image_path)
 if image is None:
     print("Gambar tidak ditemukan")
